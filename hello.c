@@ -5,10 +5,6 @@
 #include "opintl.h"
 #include "libiberty.h"
 
-/* ARC NPS400 Support: The ARC NPS400 core is an ARC700 with some custom
-   instructions. All NPS400 features are built into all ARC target builds as
-   this reduces the chances that regressions might creep in.  */
-
 /* Insert RA register into a 32-bit opcode, with checks.  */
 
 static unsigned long long
